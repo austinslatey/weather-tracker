@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: lightskyblue;
+}
+
+aside {
+    background-color: lightslategray;
+}
+
+aside p {
+    color: white;
+}
+

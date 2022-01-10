@@ -25,12 +25,15 @@
             <p class="p-2 m-2 text-center search-city">Find a city with the seach bar below!</p>
             <div class="form-group">
                 <!--input and button for search-->
-                <input class="p2 m-2 rounded text-center form-control" id="city-name" type="search"
-                    placeholder="Type city here" aria-label="Enter a city">
+                <input class="p2 m-2 rounded text-center form-control city-name" 
+                    id="city-name" 
+                    type="search"
+                    placeholder="Type city here" 
+                    aria-label="Enter a city">
             </div>
             <div class="form-group">
 
-                <button class="p-2 m-2 rounded btn-block" id="#search-Btn">Search</button>
+                <button class="p-2 m-2 rounded btn-block button" id="fetch-button">search</button>
             </div>
         </form>
         <div class="input-history">
@@ -42,11 +45,18 @@
         <div class="row p-2 m-1">
 
         </div>
-        <h3 class="row px-3 forcast">Upcoming weather this week:</h3>
+        <h3 class="row px-3 forcast">Temprature right now:</h3>
+        <p class="display-name"></p>
 
         <!--Display forcast-->
-        <section class="display-forcast row p-2">
-            <div class="col-xl-2 col-md-2 col-sm-2">
+        <div class="display-forcast row p-2">
+            <h1 class="col-xl-2 col-md-2 col-sm-2 name">
+
+            </h1>
+            <div class="col-xl-2 col-md-2 col-sm-2 desc">
+
+            </div>
+            <div class="col-xl-2 col-md-2 col-sm-2 temp">
 
             </div>
             <div class="col-xl-2 col-md-2 col-sm-2">
@@ -55,26 +65,16 @@
             <div class="col-xl-2 col-md-2 col-sm-2">
 
             </div>
-            <div class="col-xl-2 col-md-2 col-sm-2">
+            <ul class="col-8 mb -3"></ul>
 
-            </div>
-            <div class="col-xl-2 col-md-2 col-sm-2">
-
-            </div>
-
-        </section>
+        </div>
+        
 
 
 
     </main>
     <!--footer-->
-    <!--script for jquery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
-        crossorigin="anonymous"></script>
+    
     <!--moment js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
     <!--script for js file-->

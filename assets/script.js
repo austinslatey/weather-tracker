@@ -40,10 +40,7 @@ fetchButton.addEventListener('click', function(event) {
                   var long = data['coord']['lon'];
                   console.log(lat);
                   console.log(long);
-                  var grabLat = lat;
-                  console.log(grabLat);
-                  var grabLong = long;
-                  console.log(grabLong);
+                 
 
                   cityName.innerHTML = nameValue;
                   temp.innerHTML = tempValue;
